@@ -55,7 +55,7 @@ nav ul li{
     top: 50px;
 }
 #lupa{
-    float: inline-start;
+    float: left;
 }
 .opinion{
     display: inline-block;
@@ -116,7 +116,7 @@ header {
     margin: auto;
 }
 #lupa{
-    margin: 5px 10px;
+    margin: 1% 2%;
     max-height: 18px;
     max-width: 18px;
 }
@@ -189,7 +189,7 @@ footer{
     padding: 2% 3%;
 }
 footer article{
-    width: 24%;
+    width: 20%;
 }
 
 
@@ -223,6 +223,9 @@ img, picture, video, iframe, figure{
     .logo{
         font-size: 1.8em;
     }
+    .checkbutton{
+        max-width: 10px;
+    }
     nav ul{
         width: 60%;
         padding-left: 8%;
@@ -233,16 +236,17 @@ img, picture, video, iframe, figure{
     #barra{
         width: 17%;
         top: 85px;
+        max-height: 25px;
     }
     #Opiniones{
-        height: 450px;
+        height: 500px;
     }
     .opinion{
         width: 100%;
         height: 30%;
     }
     .opinion p{
-        line-height: 2.5vh;
+        font-size: larger;
         margin: 1%;
     }
     .comillas{
@@ -259,7 +263,8 @@ img, picture, video, iframe, figure{
 }
 @media (max-width: 858px){ /***** Móvil *****/
     .logo{
-        font-size: 1.2em;
+        font-size: 1em;
+        max-width: 80px;
     }
     .checkbutton{
         display: block;
@@ -307,6 +312,9 @@ img, picture, video, iframe, figure{
         right: 20%;
         top: 50px;
     }
+    #Portada{
+        max-height: 13em;
+    }
     #Categorias{
         height: 850px;
     }
@@ -318,7 +326,7 @@ img, picture, video, iframe, figure{
         position: absolute;
         top: 100px;
         width: 45%;
-        height: 320px;
+        height: 300px;
     }
     #cat1{
         left: 3%;
@@ -334,6 +342,10 @@ img, picture, video, iframe, figure{
         left: 51%;
         top: 480px;
     }
+    footer article ul li a{
+        font-size: small;
+    };
+
 }
 
 
@@ -465,7 +477,8 @@ nav ul li:hover > ul {
 footer {
     background-color: #CFE17D;
 }
-#logo{
-    font-size: 2em;
+#correo{
+    font-size: smaller;
+    margin-right: 1%;
 }
 
