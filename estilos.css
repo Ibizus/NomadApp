@@ -112,6 +112,7 @@ header {
 }
 #barra{
     width: 20%;
+    height: 1em;
     margin: auto;
 }
 #lupa{
