@@ -221,7 +221,7 @@ img, picture, video, iframe, figure{
         padding: 1em 2em;
     }
     .logo{
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     nav ul{
         width: 60%;
@@ -259,7 +259,7 @@ img, picture, video, iframe, figure{
 }
 @media (max-width: 858px){ /***** Móvil *****/
     .logo{
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
     .checkbutton{
         display: block;
@@ -308,19 +308,17 @@ img, picture, video, iframe, figure{
         top: 50px;
     }
     #Categorias{
-        height: 860px;
+        height: 850px;
     }
     #CabeceraCat{
         height: 3em;
     }
     .cat{
-        width: 45%;
-        height: 340px;
-    }
-    .cat {
         display: block;
         position: absolute;
         top: 100px;
+        width: 45%;
+        height: 320px;
     }
     #cat1{
         left: 3%;
@@ -356,7 +354,7 @@ header {
     background-color: #CFE17D;
 }
 .logo{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 
