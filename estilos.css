@@ -145,7 +145,7 @@ header {
 .opinion p{
     shape-margin: 1%;
     line-height: 25px;
-    font-size: 1.8vw;  ----------------------------------
+    font-size: 1.8vw;
 }
 #Categorias{
     height: 600px;
@@ -258,6 +258,9 @@ img, picture, video, iframe, figure{
 
 }
 @media (max-width: 858px){ /***** Móvil *****/
+    .logo{
+        font-size: 1.8em;
+    }
     .checkbutton{
         display: block;
     }
