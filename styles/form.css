@@ -27,6 +27,12 @@ body{
     font-weight: bold;
 }
 
+.X{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
 .form-login{
     width: 400px;
     overflow: hidden;
