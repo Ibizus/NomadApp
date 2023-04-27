@@ -33,6 +33,10 @@ body{
     right: 5%;
 }
 
+.X img{
+    height: 50px;
+}
+
 .form-login{
     width: 400px;
     overflow: hidden;
