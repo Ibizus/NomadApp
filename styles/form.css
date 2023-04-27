@@ -101,3 +101,15 @@ body{
 .form-login a:hover{
     text-decoration: underline;
 }
+
+input:focus:invalid {
+    background: url(../images/nok.png) no-repeat 98% center;
+}
+
+input:focus:valid {
+    background: url(../images/ok.png) no-repeat 98% center;
+}
+
+input:focus:valid:not(.buttons) {
+    background: url(../images/ok.png) no-repeat 200% center;
+}
