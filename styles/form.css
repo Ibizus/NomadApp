@@ -84,7 +84,7 @@ body{
     background: #B0D217;
     border: none;
     color: #555555;
-    margin-bottom: 14px;
+    margin: 12px 0;
 }
 
 .form-login p{
@@ -102,14 +102,22 @@ body{
     text-decoration: underline;
 }
 
+#acepto{
+    margin-left: 2%;
+}
+
+#acepto:not(:checked)+label {
+    color: rgb(170, 0, 0);
+}
+
 input:focus:invalid {
     background: url(../images/nok.png) no-repeat 98% center;
 }
 
-input:focus:valid {
+input:focus:valid{
     background: url(../images/ok.png) no-repeat 98% center;
 }
 
-input:focus:valid:not(.buttons) {
-    background: url(../images/ok.png) no-repeat 200% center;
+input[class="buttons"]:focus:valid{
+    background: none;
 }
