@@ -120,4 +120,6 @@ input:focus:valid{
 
 input[class="buttons"]:focus:valid{
     background: none;
+    border: #B0D217 solid 1px;
 }
+
