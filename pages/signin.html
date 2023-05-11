@@ -14,16 +14,18 @@
     <form class="form-login" action="" novalidate>
         <h6>Bienvenido a</h6>
         <h3>NomadApp</h3>
-        <input class="controls" type="text" name="nombre" value="" placeholder="Nombre" required>
-        <input class="controls" type="text" name="usuario" value="" placeholder="Usuario" required>
-        <input class="controls" type="email" name="email" value="" placeholder="Correo electrónico" required>
-        <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña" id="pass" required
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+        <input class="controls" type="email" name="email" id="email" placeholder="Correo electrónico" required>
+        <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Contraseña" id="pass" required
         pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])(?!\s)[a-zA-Z\d#$@!%&*?]{8,16}$">
-        <input class="controls" type="password" name="contrasena2" value="" placeholder="Repite contraseña" id="pass" required>
+        <input class="controls" type="password" name="contrasena2" id="contrasena2" placeholder="Repite contraseña" id="pass" required>
         <input type="checkbox" id="acepto" />
         <label for="acepto"> Acepto las condiciones de uso.</label>
-        <input class="buttons" type="submit" name="registro" value="Registrarme">
+        <input class="buttons" type="submit" name="registro" id="Registrarme" onclick="validar();return false;">
         <p><a href="login.html">¿Ya tienes cuenta? Inicia sesión</a></p>
     </form>
+    <script src="../js/app.js"></script>
+    <script src="../js/sweetalert2.js"></script>
 </body>
 </html>
