@@ -70,7 +70,7 @@ if(todoOk)
         text: salidaJSON,
         icon: 'success',
         showConfirmButton: false,
-        timer: 2000
+        timer: 3000
       })
 }
 
