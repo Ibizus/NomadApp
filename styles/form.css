@@ -38,6 +38,7 @@ body{
 }
 
 .form-login{
+    position: relative;
     width: 400px;
     overflow: hidden;
     background: #e4e4e4;
@@ -120,4 +121,15 @@ input:focus:valid{
 
 input[class="buttons"]:focus:valid{
     background: #B0D217;
+}
+
+
+/* ALERTA FORMATO CONTRASEÑA */
+#passAlert{
+    position: absolute;
+    right: -150px;
+    bottom: 50px;
+
+    border: #555555 solid 1px;
+    padding: 1% 2%;
 }
