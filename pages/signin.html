@@ -19,18 +19,20 @@
         <input class="controls" type="email" name="email" id="email" placeholder="Correo electrónico" required>
         <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Contraseña" id="pass" required
         pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])(?!\s)[a-zA-Z\d#$@!%&*?]{8,16}$">
-           
-        <article id="passAlert">
-                <h6>Formato requerido:</h6>
-                <ul>
-                    <li>Entre 8 y 16 caracteres</li>
-                    <li>Al menos una mayúcula</li>
-                    <li>Al menos una minúciula</li>
-                    <li>Al menos un número</li>
-                    <li>Algún carácter especial #$@!%&*?</li>
-                </ul>
-        </article>
-        
+        <span class="noValido">
+            <article id="passAlert">
+                    <h6>Formato requerido:</h6>
+                    <ul>
+                        <li>Entre 8 y 16 caracteres</li>
+                        <li>Al menos una mayúscula</li>
+                        <li>Al menos una minúscula</li>
+                        <li>Al menos un número</li>
+                        <li>Algún carácter especial #$@!%&*?</li>
+                    </ul>
+                    <img id="flecha" src="../images/flecha.png" alt="">
+            </article>
+        </span> 
+
         <input class="controls" type="password" name="contrasena2" id="contrasena2" placeholder="Repite contraseña" id="pass" required>
         <input type="checkbox" id="acepto" />
         <label for="acepto"> Acepto las condiciones de uso.</label>

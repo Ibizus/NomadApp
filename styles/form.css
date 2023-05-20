@@ -38,7 +38,6 @@ body{
 }
 
 .form-login{
-    position: relative;
     width: 400px;
     overflow: hidden;
     background: #e4e4e4;
@@ -111,7 +110,7 @@ body{
     color: rgb(170, 0, 0);
 }
 
-input:focus:invalid {
+input:focus:invalid{
     background: url(../images/nok.png) no-repeat 98% center;
 }
 
@@ -126,10 +125,22 @@ input[class="buttons"]:focus:valid{
 
 /* ALERTA FORMATO CONTRASEÑA */
 #passAlert{
+    display: none;
     position: absolute;
-    right: -150px;
-    bottom: 50px;
-
+    left: calc(50% + 190px);
+    top: 450px;
+    width: 238px;
+    background: #e4e4e4;
     border: #555555 solid 1px;
-    padding: 1% 2%;
+    padding: .8%;
+    box-shadow: 5px 8px 37px #657c00;
+
+}
+#passAlert li{
+    list-style: none;
+}
+#flecha{
+    position: absolute;
+    right: 240px;
+    top: 50px;
 }
