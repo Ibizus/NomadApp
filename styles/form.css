@@ -66,7 +66,7 @@ body{
     font-size: 40px;
 }
 
-.controls{
+.controls, textarea{
     width: 100%;
     border: 1px solid #B0D217;
     margin-bottom: 12px;
@@ -130,6 +130,14 @@ input[class="buttons"]:focus:valid{
     background: #B0D217;
 }
 
+/* Formulario CONTACTO */
+#contacto{
+    width: 550px;
+}
+textarea {
+    resize: none;
+}
+  
 
 /* ALERTA FORMATO CONTRASEÑA */
 span.noValido{
