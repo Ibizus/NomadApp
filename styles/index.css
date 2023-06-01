@@ -57,6 +57,9 @@ nav ul li{
 #lupa{
     float: inline-start;
 }
+main{
+    position: relative;
+}
 .opinion{
     display: inline-block;
 }
@@ -83,6 +86,9 @@ nav ul li{
 #Destacados article{
     display: inline-block;
     text-align: left;
+}
+footer{
+    position: relative;
 }
 footer article{
     display: inline-block;
@@ -118,6 +124,10 @@ header {
     margin: 5px 10px;
     max-height: 18px;
     max-width: 18px;
+}
+main{
+    max-width: 1440px;
+    margin: auto;
 }
 .Portada{
     height: max-content;
@@ -168,7 +178,7 @@ header {
     margin: 2%;
 }
 #Destacados{
-    height: 22em;
+    overflow: hidden;
     padding: 2%;
 }
 #cabeceraDest{
@@ -176,8 +186,8 @@ header {
     height: 4em;
 }
 #gris{
+    overflow: hidden;
     padding: 3%;
-    height: 16em;
 }
 #Destacados article{
     width: 24%;
@@ -283,10 +293,6 @@ img, picture, video, iframe, figure{
         font-size: larger;
         padding: 0 35%;
     }
-    /*nav ul ul{ /* para que no aparezca el submenú en version móvil *//*
-        background: none;
-        display: none;
-    }*/
     nav ul ul li{ /* para que no aparezca el submenú en version móvil */
         display: none;
         background: none;
@@ -413,9 +419,9 @@ nav ul li:hover > ul {
 
 /********* MAIN *********/
 main{
-    max-width: 1440px;
-    margin: auto;
+    background: none;
 }
+
 
 /*** SECTION ***/
 .Portada{
