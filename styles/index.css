@@ -69,16 +69,16 @@ nav ul li{
     top: 150px;
 }
 #cat1{
-    left: 2.5%;
+    left: 1.5%;
 }
 #cat2{
-    left: 25.7%;
+    left: 26.5%;
 }
 #cat3{
-    left: 49.3%;
+    left: 51.5%;
 }
 #cat4{
-    left: 72.5%;
+    left: 76.5%;
 }
 #Destacados article{
     display: inline-block;
@@ -119,12 +119,12 @@ header {
     max-height: 18px;
     max-width: 18px;
 }
-#Portada{
+.Portada{
     height: max-content;
     margin: 0% 5% 2%;
     height: 500PX;
 }
-#Portada h1{
+.Portada h1{
     margin: auto;
     padding-top: 1em;
 }
@@ -159,7 +159,6 @@ header {
 .cat{
     width: 22%;
     margin: auto;
-    margin-inline: 1%;
     height: 400px;
 }
 .cat h4{
@@ -347,7 +346,6 @@ body{
 }
 
 
-
 /*** HEADER ***/
 header {
     background-color: #CFE17D;
@@ -413,20 +411,22 @@ nav ul li:hover > ul {
 }
 
 
+/********* MAIN *********/
+main{
+    max-width: 1440px;
+    margin: auto;
+}
 
 /*** SECTION ***/
-#Portada{
+.Portada{
     background-image: url(../images/Portada.jpg);
     background-position: center center;
     background-size: cover;
 }
-#Portada_Vans{
+#HomeVans{
     background-image: url(../images/Vans.png);
-    background-position: center center;
-    background-size: cover;
 }
-
-#Portada h1{
+.Portada h1{
     color: white;
     font-size: 3.5em;
 }
