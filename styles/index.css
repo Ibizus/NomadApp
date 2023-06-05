@@ -230,7 +230,7 @@ img, picture, video, iframe, figure{
         padding: 1em 2em;
     }
     .logo{
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     nav ul{
         width: 60%;
@@ -267,6 +267,9 @@ img, picture, video, iframe, figure{
 
 }
 @media (max-width: 858px){ /***** Móvil *****/
+    .logo{
+        font-size: 1.3em;
+    }
     .checkbutton{
         display: block;
     }
@@ -357,7 +360,7 @@ header {
     background-color: #CFE17D;
 }
 .logo{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 
@@ -380,6 +383,7 @@ nav ul li:hover {
 }
 /* menu desplegable */
 nav ul ul {
+    z-index: 50;
     opacity: .9;
     display:none;
     position:absolute;
@@ -411,10 +415,9 @@ nav ul li:hover > ul {
 #barra{
     border-radius: 1em;
     background-color: white;
+    background: url(../images/lupa.png) no-repeat 2% center;
 }
-#barra p{
-    text-align: left;
-}
+
 
 
 /********* MAIN *********/
@@ -431,6 +434,15 @@ main{
 }
 #HomeVans{
     background-image: url(../images/Vans.png);
+}
+#HomeCaravaning{
+    background-image: url(../images/Caravaning.jpg);
+}
+#HomeOverland{
+    background-image: url(../images/Overland.jpg);
+}
+#HomeAccesories{
+    background-image: url(../images/Accesorios.jpg);
 }
 .Portada h1{
     color: white;
