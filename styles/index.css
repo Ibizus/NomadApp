@@ -54,9 +54,6 @@ nav ul li{
     right: 40%;
     top: 50px;
 }
-#lupa{
-    float: inline-start;
-}
 main{
     position: relative;
 }
@@ -119,11 +116,6 @@ header {
 #barra{
     width: 20%;
     margin: auto;
-}
-#lupa{
-    margin: 5px 10px;
-    max-height: 18px;
-    max-width: 18px;
 }
 main{
     max-width: 1440px;
@@ -415,7 +407,6 @@ nav ul li:hover > ul {
 #barra{
     border-radius: 1em;
     background-color: white;
-    background: url(../images/lupa.png) no-repeat 2% center;
 }
 
 
