@@ -68,7 +68,7 @@ body{
 
 .controls, textarea{
     width: 100%;
-    border: 1px solid #B0D217;
+    border: .8px solid #B0D217;
     margin-bottom: 12px;
     padding: 11px 10px;
     background: #D5D5D5;
@@ -108,6 +108,14 @@ body{
 
 #acepto:not(:checked)+label {
     color: rgb(170, 0, 0);
+}
+
+#acepto:checked{
+    background-color: #555555;
+}
+
+input:focus{
+    outline: none;
 }
 
 input:focus:invalid{

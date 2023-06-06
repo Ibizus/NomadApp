@@ -408,10 +408,12 @@ nav ul li:hover > ul {
 
 /* Barra de búsqueda */
 #barra{
-    border-radius: 1em;
     background-color: white;
+    padding: 0 .7%;
+    border-radius: 1em;
+    border: 0;
+    outline: none;
 }
-
 
 
 
