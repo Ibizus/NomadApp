@@ -116,6 +116,7 @@ header {
 #barra{
     width: 20%;
     margin: auto;
+    height: 2em;
 }
 main{
     max-width: 1440px;
@@ -234,6 +235,7 @@ img, picture, video, iframe, figure{
     #barra{
         width: 17%;
         top: 85px;
+        height: 1.8em;
     }
     #Opiniones{
         height: 450px;
@@ -300,7 +302,8 @@ img, picture, video, iframe, figure{
         right: 0;
     }
     #barra{
-        width: 17%;
+        width: 15%;
+        height: 1.7em;
         right: 20%;
         top: 50px;
     }
@@ -408,6 +411,7 @@ nav ul li:hover > ul {
     border-radius: 1em;
     background-color: white;
 }
+
 
 
 
